@@ -52,6 +52,7 @@ button {
     @media (max-width: 550px) {
         width: 80%;
         padding: 15px;
+        height: 45vh;
     }
 }
 
@@ -101,4 +102,35 @@ button {
 .clicked-rating {
     background-color: var(--orange);
     color: var(--white)
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+    img {
+        object-fit: contain;
+    }
+}
+
+.selection {
+    background-color: var(--card-color);
+    filter: brightness(120%);
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.orange-text {
+    color: var(--orange)
 }
