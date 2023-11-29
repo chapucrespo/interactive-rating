@@ -1,7 +1,6 @@
 # Frontend Mentor - Interactive rating component
 
-#Deployed Page
-https://chapucrespo.github.io/interactive-rating/
+[Deployed Page](https://chapucrespo.github.io/interactive-rating/)
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
