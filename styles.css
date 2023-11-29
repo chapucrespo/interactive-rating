@@ -3,10 +3,11 @@
 :root {
    --orange: hsl(25, 97%, 53%);
    --white: hsl(0, 0%, 100%);
-   --text-color: hsl(217, 12%, 63%);
-   --button-color: hsl(216, 12%, 54%);
-   --card-color: hsl(213, 19%, 18%);
-   --background-color: hsl(216, 12%, 8%);
+   --p-color: hsl(217, 12%, 63%);
+   --text-color: hsl(216, 12%, 54%);
+   --button-color: hsl(213, 19%, 18%);
+   --card-color: hsl(216, 12%, 8%);
+
 }
 
 body {
@@ -15,7 +16,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--background-color);
+    background-color: black;
     font-family: 'Overpass', sans-serif;
     margin: 0;
     padding: 0;
@@ -23,14 +24,14 @@ body {
 
 p {
     font-size: 15px;
-    color: var(--text-color)
+    color: var(--p-color)
 }
 
 a {
     color: var(--orange)
 }
 
-h2 {
+h1 {
     color: var(--white);
     margin-bottom: 0;
 }
@@ -53,12 +54,13 @@ button {
         width: 80%;
         padding: 15px;
         height: 45vh;
+        max-height: 320px;
     }
 }
 
 .button-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .round-button {
@@ -87,6 +89,8 @@ button {
 
 .submit-button {
     background-color: var(--orange);
+    color: var(--white);
+    font-weight: 700;
     width: 100%;
     border-radius: 50px;
     border: none;

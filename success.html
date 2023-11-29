@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-    <title>Frontend Mentor | Interactive rating component</title>
-</head>
-<body>
-    <section class="main-container">
-        <div class="img-container">
-            <img src="./images/illustration-thank-you.svg">
-        </div>
+        <title>Frontend Mentor | Interactive rating component</title>
+    </head>
+    <body>
+        <section class="main-container">
+            <div class="img-container">
+                <img src="./images/illustration-thank-you.svg">
+            </div>
 
-        <div class="selection">
-            <!-- <p class="selected"></p> -->
-        </div>
+            <div class="selection"></div>
 
-        <h2 class="center-text">Thank you!</h2>
+            <h1 class="center-text">Thank you!</h1>
 
-        <p class="center-text">
-            We appreciate you taking the time to give a rating.
-            If you ever need more support, don't hesitate to get in touch!
-        </p>
-    </section>
+            <p class="center-text">
+                We appreciate you taking the time to give a rating.
+                If you ever need more support, don't hesitate to get in touch!
+            </p>
+        </section>
 
-    <footer class="attribution">
-        <p>
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-            Coded by <a href="#">Chapu Crespo</a>.
-        </p>
-    </footer>
+        <footer class="attribution">
+            <p>
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                Coded by <a href="#">Chapu Crespo</a>.
+            </p>
+        </footer>
 
-    <script>
-        const value = localStorage.rating
-        const selectedParagraph = document.querySelector('.selection');
-        selectedParagraph.innerHTML =  `<p class="orange-text">You selected ${value} out of 5</p>`
-    </script>
-</body>
+        <script>
+            const value = localStorage.rating
+            const selectedParagraph = document.querySelector('.selection');
+            selectedParagraph.innerHTML =  `<p class="orange-text">You selected ${value} out of 5</p>`
+        </script>
+    </body>
 </html>
